@@ -28,7 +28,7 @@ def pre_init_hook(cr):
         'UPDATE hr_applicant SET partner_id=1 WHERE partner_id IS NULL')
 
 
-def post_init_hook(cr, pool):
+def post_init_hook(cr):
     env = Environment(cr, SUPERUSER_ID, {})
     # create a new partner for all applicants with no real partner assigned
     applicants = env['hr.applicant'].with_context(active_test=False).\

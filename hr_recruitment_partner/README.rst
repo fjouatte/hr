@@ -16,17 +16,14 @@ As an additional advantage, it is easier now to add other personal and
 address details to the Applicant form, such as the photo image or the
 address details.
 
-When installing the first time, related Partners will automatically be created
+When installing the module for the first time, related Partners will automatically be created
 for existing Applicants not having one.
 
 
 Configuration
 =============
 
-On install, new Partner record are automatically created for existing
-Applicants without one.
-
-You may like to custiomize your Applicants form view to add it any Partner
+You may like to customize your Applicants form view to add it any Partner
 fields you may find like to have directly available there, such as the City
 or Zip code.
 
